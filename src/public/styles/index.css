@@ -1,0 +1,9 @@
+content { align-items: flex-start; margin: 30px 150px; }
+intro { width: 45%; margin-top: 100px; margin-right: 5%; }
+intro h1 { font-size: 65px; font-weight: bold; font-family: Montserrat, sans-serif; line-height: 1em; }
+intro p.small { margin-top: 40px; font-size: 0.8em; color: #999; }
+
+actions { display: block; margin-top: 40px; }
+.actionButton { display: inline-block; width: 180px; margin-right: 20px; padding: 10px 30px; text-align: center; text-decoration: none; border: 1px solid var(--color-white); border-radius: 30px; color: var(--color-light); background-color: var(--color-accented); cursor: pointer; }
+.actionButton:hover { background-color: var(--color-accented); }
+.actionButton.disabled { border: 1px dashed #888; color: #888; pointer-events: none; }

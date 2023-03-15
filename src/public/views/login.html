@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('components/meta.html'); %>
+  <link rel="stylesheet" href="/styles/login.css">
+</head>
+<body data-theme="lite">
+  <%- include('components/header.html'); %>
+  <content>
+    <action>
+      <img class="wallet-image" src="/media/xumm.png" width="300px">
+      <h1>CONNECT YOUR WALLET</h1>
+      <h2>You need to connect your XUMM wallet before creating your portfolio</h2>
+      <button id="action" class="actionButton" onclick="onConnect()">CONNECT</button>
+      <div id="message" class="message">You must scan a qrcode with your wallet and accept the request</div>
+      <button id="logout" class="miniButton" onclick="onLogout()">LOGOUT</button>
+    </action>
+    <wallet>
+      <img class="xummLogo" src="/media/xumm-logo.jpg">
+      <h1 class="walletTitle">We use <b>XUMM</b> as our preferred crypto wallet</h1>
+      <p>In order to invest in our platform you will need to install <a id="getWallet" href="https://xumm.app" target="_blank">XUMM wallet</a> in your mobile phone and have some XRP funds as all transactions will be stored in XRPL Ledger</p>
+      <p class="walletStores">
+        <a href="https://play.google.com/store/apps/details?id=com.xrpllabs.xumm" target="_blank"><img class="getWallet" src="/media/getandroid.png"></a> 
+        <a href="https://apps.apple.com/us/app/xumm/id1492302343" target="_blank"><img class="getWallet" src="/media/getapple.png"></a>
+      </p>
+      <p>Once installed, you can create your portfolio and start investing!</p>
+    </wallet>
+  </content>
+  <%- include('components/footer.html'); %>
+  <script src="/scripts/login.js"></script>
+</body>
+</html>

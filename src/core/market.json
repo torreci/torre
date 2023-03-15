@@ -1,0 +1,233 @@
+{
+  "ticker":[
+    {
+      "assetid":"TLND123456",
+      "priceusd": "2,295",
+      "pricetorre": "6,885,000",
+      "shares": "10",
+      "change": "5.24"
+    },
+    {
+      "assetid":"TLND456654",
+      "priceusd": "750",
+      "pricetorre": "2,250,000",
+      "shares": "50",
+      "change": "3.12"
+    },
+    {
+      "assetid":"TLND321987",
+      "priceusd": "960",
+      "pricetorre": "2,880,000",
+      "shares": "10",
+      "change": "2.89"
+    },
+    {
+      "assetid":"TDUB789456",
+      "priceusd": "1,250",
+      "pricetorre": "3,750,000",
+      "shares": "10",
+      "change": "2.75"
+    },
+    {
+      "assetid":"TKLM554221",
+      "priceusd": "3,250",
+      "pricetorre": "9,750,000",
+      "shares": "10",
+      "change": "2.60"
+    },
+    {
+      "assetid":"TSGP741228",
+      "priceusd": "995",
+      "pricetorre": "2,985,000",
+      "shares": "10",
+      "change": "2.24"
+    },
+    {
+      "assetid":"TLND123456",
+      "priceusd": "2,295",
+      "pricetorre": "6,885,000",
+      "shares": "10",
+      "change": "1.80"
+    },
+    {
+      "assetid":"TLND456654",
+      "priceusd": "750",
+      "pricetorre": "2,250,000",
+      "shares": "50",
+      "change": "1.76"
+    },
+    {
+      "assetid":"TLND321987",
+      "priceusd": "960",
+      "pricetorre": "2,880,000",
+      "shares": "10",
+      "change": "1.58"
+    },
+    {
+      "assetid":"TDUB789456",
+      "priceusd": "1,250",
+      "pricetorre": "3,750,000",
+      "shares": "10",
+      "change": "1.26"
+    },
+    {
+      "assetid":"TKLM554221",
+      "priceusd": "3,250",
+      "pricetorre": "9,750,000",
+      "shares": "10",
+      "change": "1.22"
+    },
+    {
+      "assetid":"TSGP741228",
+      "priceusd": "995",
+      "pricetorre": "2,985,000",
+      "shares": "10",
+      "change": "1.15"
+    },
+    {
+      "assetid":"TLND123456",
+      "priceusd": "2,295",
+      "pricetorre": "6,885,000",
+      "shares": "10",
+      "change": "1.10"
+    },
+    {
+      "assetid":"TLND456654",
+      "priceusd": "750",
+      "pricetorre": "2,250,000",
+      "shares": "50",
+      "change": "0.95"
+    },
+    {
+      "assetid":"TLND321987",
+      "priceusd": "960",
+      "pricetorre": "2,880,000",
+      "shares": "10",
+      "change": "0.82"
+    },
+    {
+      "assetid":"TDUB789456",
+      "priceusd": "1,250",
+      "pricetorre": "3,750,000",
+      "shares": "10",
+      "change": "0.70"
+    },
+    {
+      "assetid":"TKLM554221",
+      "priceusd": "3,250",
+      "pricetorre": "9,750,000",
+      "shares": "10",
+      "change": "0.25"
+    },
+    {
+      "assetid":"TSGP741228",
+      "priceusd": "995",
+      "pricetorre": "2,985,000",
+      "shares": "10",
+      "change": "0.10"
+    },
+    {
+      "assetid":"TLND123456",
+      "priceusd": "2,295",
+      "pricetorre": "6,885,000",
+      "shares": "10",
+      "change": "1.10"
+    },
+    {
+      "assetid":"TLND456654",
+      "priceusd": "750",
+      "pricetorre": "2,250,000",
+      "shares": "50",
+      "change": "0.95"
+    },
+    {
+      "assetid":"TLND321987",
+      "priceusd": "960",
+      "pricetorre": "2,880,000",
+      "shares": "10",
+      "change": "0.82"
+    },
+    {
+      "assetid":"TDUB789456",
+      "priceusd": "1,250",
+      "pricetorre": "3,750,000",
+      "shares": "10",
+      "change": "0.75"
+    },
+    {
+      "assetid":"TKLM554221",
+      "priceusd": "3,250",
+      "pricetorre": "9,750,000",
+      "shares": "10",
+      "change": "0.60"
+    },
+    {
+      "assetid":"TSGP741228",
+      "priceusd": "995",
+      "pricetorre": "2,985,000",
+      "shares": "10",
+      "change": "0.24"
+    },
+    {
+      "assetid":"TLND123456",
+      "priceusd": "2,295",
+      "pricetorre": "6,885,000",
+      "shares": "10",
+      "change": "0.18"
+    }
+  ],
+  "book":{
+    "buy":[
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2295",
+        "shares": "10"
+      },
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2290",
+        "shares": "5"
+      },
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2285",
+        "shares": "20"
+      },
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2282",
+        "shares": "12"
+      }
+    ],
+    "sell":[
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2300",
+        "shares": "30"
+      },
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2305",
+        "shares": "15"
+      },
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2310",
+        "shares": "10"
+      },
+      {
+        "assetid":"TLND123456",
+        "date": "2023-01-01 08:30:00",
+        "price": "2315",
+        "shares": "25"
+      }
+    ]
+  }
+}

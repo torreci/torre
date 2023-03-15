@@ -1,0 +1,42 @@
+/* listings */
+
+body[data-theme='lite'] #icon-grid { fill: #000; }
+body[data-theme='dark'] #icon-grid { fill: #fff; }
+
+
+
+content { flex-direction: column; justify-content: flex-start; }
+.title { text-align: center; font-size: 3em; margin-bottom: 0; }
+.subtitle { width: 50%; text-align: center; font-size: 1em; }
+listbar { width: 100%; margin-top: 50px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-primary); border-bottom: 1px solid var(--border-primary); }
+listbar buttons { width: 300px; }
+listbar buttons.filter { text-align: left; }
+listbar buttons.views  { text-align: right; }
+.barTitle { margin: 0; padding: 10px 0; }
+
+.optionButton { margin: 0; padding: 10px 20px; border: 1px solid var(--border-primary); background-color: transparent; }
+.optionLeft  { border-radius: 6px 0 0 6px; }
+.optionRight { border-radius: 0 6px 6px 0; }
+.optionSelected { background-color: var(--back-secondary); }
+.optionIcon { width: 16px; height: 16px; }
+
+listings { width: 100%; margin: 40px 0; }
+#listGrid  { width: 100%; display: grid; grid-template-columns: repeat(4, 23%); grid-gap: 5% 2.5%; }
+#listTable { display: none; }
+#listMaps  { display: none; }
+
+card { width: 100%; height: 460px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;  border: 1px solid var(--border-primary); }
+card img { width: 100%; height: 240px; }
+card info { padding: 10px; }
+card h1 { font-size: 1.2em; font-weight: 500; margin: 0; padding: 0; }
+card h2 { font-size: 0.9em; margin: 0; padding: 0; }
+card info { display: block; width: 100%; }
+card funds { width: 100%; margin-bottom: 10px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border-primary); }
+card percent { color: var(--color-accented); font-size: 1.2em; font-weight: bold; margin-right: 20px; }
+card raised  { font-weight: normal; }
+card price   { font-weight: bold; }
+card share { width: 100%; margin-top: 10px; padding: 8px 0; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-top: 2px solid var(--border-primary); }
+
+.investButton { display: inline-block; width: 100px; margin-left: 10px; padding: 3px 10px; text-align: center; text-decoration: none; border: 1px solid var(--color-white); border-radius: 30px; color: var(--color-light); background-color: var(--color-accented); cursor: pointer; }
+.investButton:hover { background-color: var(--color-accented); }
+.investButton.disabled { border: 1px dashed #888; color: #888; pointer-events: none; }

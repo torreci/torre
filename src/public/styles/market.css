@@ -1,0 +1,44 @@
+/* listings */
+
+body[data-theme='lite'] #icon-grid { fill: #000; }
+body[data-theme='dark'] #icon-grid { fill: #fff; }
+
+
+
+content { flex-direction: column; justify-content: flex-start; }
+.title { text-align: center; font-size: 3em; margin-bottom: 0; }
+.subtitle { width: 50%; text-align: center; font-size: 1em; }
+topbar { width: 100%; margin-top: 50px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-primary); border-bottom: 1px solid var(--border-primary); }
+vbox { display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; }
+vbox h3 { margin: 0; padding: 0; font-variant: small-caps; color: var(--color-secondary); }
+vbox h2 { margin: 0; padding: 0; font-size: 1.5 em; }
+
+market { /*border: 1px solid red;*/ display: flex; flex-direction: row; width: 100%; justify-content: space-between; }
+list   { /*border: 1px solid blue;*/ display: flex; flex-direction: column; width: 50%; }
+side   { /*border: 1px solid pink;*/ display: flex; flex-direction: column; width: 50%; justify-content: space-between; }
+chart  { border: 1px solid var(--border-primary); }
+trade  { /*border: 1px solid cyan;*/ display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; }
+chart h1 { margin: 0; text-align: center; }
+.chart { width: 100%; }
+
+#list  {  }
+#list th { padding: 4px 0px; font-weight: normal; text-align: right; border-bottom: 1px solid var(--border-primary); }
+#list tbody { font-family: monospace; font-size: 1.2em; }
+#list tbody tr:nth-child(odd) { background-color: var(--back-alternate); }
+#list tbody tr:first-child { background-color: var(--back-selected); }
+#list td { padding: 4px 0px; font-weight: normal; text-align: right; }
+/*#list tr:hover { background-color: var(--back-secondary); }*/
+#list th:first-child { text-align: left; }
+#list td:first-child { text-align: left; }
+#list th:last-child { padding-right: 50px; }
+#list td:last-child { padding-right: 50px; }
+
+.trade { width: 100%; margin-top: 20px; }
+.trade caption { border-bottom: 1px solid var(--border-primary); }
+.trade tbody { font-family: monospace; font-size: 1.2em; }
+.trade th { text-align: right; font-weight: normal; border-bottom: 1px solid var(--border-primary); }
+.trade td { text-align: right; }
+buy  { display: block; width: 80%; margin-right: 20px; }
+sell { display: block; width: 80%; margin-left: 20px; }
+#list-buy  { width: 100%; }
+#list-sell { width: 100%; }

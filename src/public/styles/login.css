@@ -1,0 +1,8 @@
+content { flex-direction: column; justify-content: center; align-items: center; }
+.xummLogo { border-radius: 24px; }
+action { display: block; width: 720px; margin-top: 50px; text-align: center; }
+action h2 { font-size: 1.2em; }
+#action { margin: 20px auto; }
+wallet { display: block; width: 720px; margin-top: 100px; text-align: center; }
+.walletStores { display: flex; align-items: center; justify-content: center; }
+.getWallet { width: 150px; margin-right: 20px; border: 2px solid var(--button-border); border-radius: 8px; }

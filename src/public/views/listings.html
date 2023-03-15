@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('components/meta.html'); %>
+  <link rel="stylesheet" href="/styles/listings.css">
+</head>
+<body data-theme="lite">
+  <%- include('components/header.html'); %>
+  <content>
+    <h1 class="title">Real Estate Assets</h1>
+    <h3 class="subtitle">Invest in real estate with just a fraction of the property value<br>Increase your portfolio acquiring shares of highly valued assets</h3>
+    <listbar>
+      <buttons class="filter">
+        <button class="optionButton optionLeft optionSelected">Funding</button><button class="optionButton optionRight">Completed</button>
+      </buttons>
+      <h2 class="barTitle"><%=data.length%> Properties</h2>
+      <buttons class="views">
+        <button class="optionButton optionLeft optionSelected"><img class="optionIcon" src="/media/icon-grid.svg"></button><button class="optionButton optionCenter"><img class="optionIcon" src="/media/icon-list.svg"></button><button class="optionButton optionRight"><img class="optionIcon" src="/media/icon-maps.svg"></button>
+      </buttons>
+    </listbar>
+    <listings>
+      <grid id="listGrid">
+          <% data.forEach(function(item){ %>
+          <card id="<%=item.assetid%>">
+            <img src="/uploads/<%=item.image%>">
+            <info>
+              <funds><percent><%=item.funded%>%</percent> <raised><%=utils.money(parseInt(parseInt(item.price)*parseFloat(item.funded)/100),0)%>/<price><%=utils.money(item.price)%></price></raised></funds>
+              <h1><%=item.type%></h1>
+              <h2><%=item.rooms%></h2>
+              <h2><%=item.area%></h2>
+              <h2><%=item.address%></h2>
+              <h2><%=item.region%></h2>
+              <share><span>Share price as low as <b><%=utils.money(item.share,0)%></b></span> <button class="investButton">INVEST</button></share>
+            </info>
+          </card>
+          <% }) %>
+      </grid>
+      <table id="listTable">
+        <tr></tr>
+      </table>
+      <maps id="listMaps">
+        Map here
+      </maps>
+    </listings>
+  </content>
+  <%- include('components/footer.html'); %>
+</body>
+</html>

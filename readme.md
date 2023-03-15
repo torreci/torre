@@ -43,4 +43,11 @@ Detailed process of real estate tokenization, due diligence by the platform, and
 12. Returns and Dividends: The returns and dividends from the real estate asset will be distributed to the investors as per the terms of the investment contract.
 
 
+## Whitepaper
+
+[Link to whitepaper](https://whitepaper.torreci.com/whitepaper/executive-summary)
+
+## Tokenomics
+
+[Link to tokenomics](https://whitepaper.torreci.com/whitepaper/the-tokenomics)
 

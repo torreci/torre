@@ -1,0 +1,18 @@
+{
+  "name": "xtorre",
+  "version": "1.0.0",
+  "description": "Example app",
+  "author": "Team Xtorre",
+  "license": "unlicensed",
+  "main": "index.js",
+  "dependencies": {
+    "@lighthouse-web3/sdk": "^0.1.12",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "node-fetch": "^3.3.0",
+    "pg": "^8.9.0",
+    "xrpl": "^2.7.0-beta.2"
+  }
+}

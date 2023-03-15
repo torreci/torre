@@ -1,0 +1,30 @@
+[
+  {
+    "assetid":"0x1234567893",
+    "date": "2023-01-01 08:30:00",
+    "type": "Apt in Montgomery",
+    "price": "699000",
+    "share": "1000",
+    "funded": "10 shares @ $699 ea",
+    "rooms": "From 699,000 to 750,000 in 2 years",
+    "area": "7% increase in value",
+    "address": "For rent at $3500/mo - RENTED",
+    "region": "Estimated profits 12%/yr",
+    "country": "USA",
+    "image": "0x1234567893.webp"
+  },
+  {
+    "assetid":"0x1234567896",
+    "date": "2023-01-01 08:30:00",
+    "type": "Apt in Minnesota",
+    "price": "950000",
+    "share": "1000",
+    "funded": "20 shares @ $950 ea",
+    "rooms": "From 950,000 to 1,235,000 in 2 years",
+    "area": "30% increase in value",
+    "address": "For rent at 5600/mo - RENTED",
+    "region": "Estimated profits 24%/yr",
+    "country": "USA",
+    "image": "0x1234567896.webp"
+  }
+]

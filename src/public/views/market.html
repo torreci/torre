@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('components/meta.html'); %>
+  <link rel="stylesheet" href="/styles/market.css">
+</head>
+<body data-theme="lite">
+  <%- include('components/header.html'); %>
+  <content>
+    <h1 class="title">Marketplace</h1>
+    <h3 class="subtitle">Buy or sell property shares and increase your portfolio</h3>
+    <topbar>
+      <vbox>
+        <h1>Market Indices</h1>
+      </vbox>
+      <vbox>
+        <h3>Volume</h3>
+        <h2>166,620 M</h2>
+      </vbox>
+      <vbox>
+        <h3>Market Cap</h3>
+        <h2>1,075,146 M</h2>
+      </vbox>
+      <vbox>
+        <h3>Change 1h</h3>
+        <h2>0.12%</h2>
+      </vbox>
+      <vbox>
+        <h3>Change 24h</h3>
+        <h2>3.76%</h2>
+      </vbox>
+    </topbar>
+    <market>
+      <list>
+        <table id="list">
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Share Price USD</th>
+              <th>Share Price TORRE</th>
+              <th>Change 24h</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% if(data.ticker && data.ticker.length>0){ %>
+              <% data.ticker.forEach(function(item){ %>
+                <tr>
+                  <td><%=item.assetid%></td>
+                  <td><%=item.priceusd%></td>
+                  <td><%=item.pricetorre%></td>
+                  <td><%=item.change%>%</td>
+                </tr>
+              <% }) %>
+            <% } else { %>
+              <h3>No tickers available</h3>
+            <% } %>
+          </tbody>
+        </table>
+      </list>
+      <side>
+        <chart>
+          <img class="chart" src="/media/chart.jpg">
+          <h1>TLND123456</h1>
+        </chart>
+        <trade>
+          <buy>
+            <table id="list-buy" class="trade">
+              <caption>BUY</caption>
+              <thead>
+                <tr>
+                  <th>Price</th>
+                  <th>Shares</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% if(data.book.buy && data.book.buy.length>0){ %>
+                  <% data.book.buy.forEach(function(item){ %>
+                    <tr>
+                      <td><%=utils.money(item.price,2)%></td>
+                      <td><%=utils.money(item.shares,0)%></td>
+                      <td><%=utils.money(item.price * item.shares,2)%></td>
+                    </tr>
+                  <% }) %>
+                <% } else { %>
+                  <h3>No offers available</h3>
+                <% } %>
+              </tbody>
+            </table>
+          </buy>
+          <sell>
+            <table id="list-sell" class="trade">
+              <caption>SELL</caption>
+              <thead>
+                <tr>
+                  <th>Price</th>
+                  <th>Shares</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <% if(data.book.sell && data.book.sell.length>0){ %>
+                  <% data.book.sell.forEach(function(item){ %>
+                    <tr>
+                      <td><%=utils.money(item.price, 2)%></td>
+                      <td><%=utils.money(item.shares, 0)%></td>
+                      <td><%=utils.money(item.price * item.shares, 2)%></td>
+                    </tr>
+                  <% }) %>
+                <% } else { %>
+                  <h3>No offers available</h3>
+                <% } %>
+              </tbody>
+            </table>
+          </sell>
+        </trade>
+      </side>
+    </market>
+  </content>
+  <%- include('components/footer.html'); %>
+</body>
+</html>
