@@ -1,6 +1,6 @@
 # TORRE Capital Investment
 
-##The future of fractional investment
+## The future of fractional investment
 
 The world’s most revolutionary real estate investing platform, allowing individuals to incorporate investments into their daily life via Fractional ownership
 
